@@ -1,5 +1,5 @@
 pipeline{
-    agent any
+    pool: test-az
     stages{
         stage('git checkout'){
             steps{
